@@ -54,19 +54,19 @@ img {
 }
 
 /* === Hero === */
-.hero {
+#hero {
     background: url('/assets/img/hero-bg.jpg') 50% 0 no-repeat fixed;
     min-height: 500px;
     padding: 40px 0;
     color: white;
     text-rendering: optimizeLegibility;
 }
-.hero article {
+#hero article {
     width: 100%;
     text-align: center;
 }
 
-.hero .hero-text {
+#hero .hero-text {
     margin-top: 30px;
 }
 
@@ -113,7 +113,7 @@ img {
 
 /* === Layout === */
 
-.optin {
+#optin {
     background: #3e4249;
     padding: 20px 0;
     color: white;
