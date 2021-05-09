@@ -166,3 +166,29 @@ i.ci {
     text-align: center;
     color: white;
 }
+
+
+/* === Share icons === */
+i.bi {
+    font-size: 3em;
+    color: cornflowerblue;
+}
+i.bi:hover {
+    color: crimson;
+}
+
+#instructor h2 {
+    margin-bottom: 0;
+}
+
+/* #elvis-brad {
+    background: white url('/assets/img/brad-elvis.png') 90% -10px no-repeat;
+} */
+
+.num-content {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-right: 5px;
+}
