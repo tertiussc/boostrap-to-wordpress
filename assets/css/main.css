@@ -53,6 +53,11 @@ img {
     max-width: 100%;
 }
 
+.modal-content {
+    background: url('/assets/img/tile.jpg') top left repeat;
+}
+
+
 /* === Hero === */
 #hero {
     background: url('/assets/img/hero-bg.jpg') 50% 0 no-repeat fixed;
@@ -169,12 +174,11 @@ i.ci {
 
 
 /* === Share icons === */
-i.bi {
+.social-links i.bi {
     font-size: 3em;
-    color: cornflowerblue;
 }
-i.bi:hover {
-    color: crimson;
+.social-links i.bi:hover {
+    color: crimson !important;
 }
 
 #instructor h2 {
@@ -185,10 +189,40 @@ i.bi:hover {
     background: white url('/assets/img/brad-elvis.png') 90% -10px no-repeat;
 } */
 
-.num-content {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+#instructor .num {
+    display: table;
+}
+#instructor .num-content {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    line-height: 24px;
+    height: 140px;
+    width: 140px;
     text-align: center;
-    margin-right: 5px;
+    background: #dd5638;
+    border-radius: 100%;
+    margin-right: 15px !important;
+}
+
+#instructor .num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#instructor .num span {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.testimoniel blockquote {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+blockquote cite {
+    display: block;
+    color: #777;
+    padding-right: 10px;
 }
