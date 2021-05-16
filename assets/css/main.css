@@ -31,6 +31,27 @@ h3{
     margin: 20px 0;
 }
 
+.feature-image {
+    display: table;
+    width: 100%;
+}
+
+.feature-image-default {
+    background: url('/assets/img/stuff-feature.jpg') no-repeat;
+    background-size: cover;
+}
+.feature-image-default-alt {
+    background: url('/assets/img/hipster-stuff.jpg') no-repeat;
+    background-size: cover;
+}
+
+.feature-image h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
 h4 {
     font-size: 18px;
 }
@@ -284,6 +305,10 @@ blockquote cite {
     font-weight: bold;
 }
 
+.navbar-nav {
+    margin: auto;
+    /* margin-right: 50px; */
+}
 
 /* === Media Queries === */
 
@@ -316,4 +341,133 @@ blockquote cite {
     #instructor .num span {
         font-size: 16px;
     }
+}
+
+/* === Blog === */
+.post, .widget {
+    position: relative;
+    border: solid 1px #ddd;
+    background: white;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.post header,
+.post .post-excerpt {
+    padding: 20px;
+}
+
+.post header h1, 
+.post header h3 {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+
+.post header h1 {
+    font-size: 24px;
+}
+
+.post-image {
+    height: auto;
+}
+
+.post-details {
+    font-size: 10px;
+    width: 90%;
+}
+
+.post-details i.bi {
+    padding-left: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.post-details i.bi:first-child {
+    padding-left: 0;
+}
+
+/* === Widgets === */
+.widget {
+    padding: 20px;
+}
+
+.widget h4 {
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: solid 1px #ddd;
+}
+
+.widget ul {
+    margin: 0;
+    padding: 0;
+}
+
+.widget ul li {
+    margin: 0 0 5px;
+}
+
+.widget ul li:hover {
+    position: relative;
+    left: 1px;
+}
+
+.widget ul li a {
+    text-decoration: none;
+}
+
+/* === Comment bubble === */
+.post-comments-badge {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    border: none;
+    border-radius: 100%;
+    background: #dd5638;
+    text-align: center;
+    display: table;
+}
+.post-comments-badge:hover {
+    background: #d95131;
+}
+
+.post-comments-badge span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 20px;
+}
+.post-comments-badge span a {
+    color: white;
+    text-decoration: none;
+}
+
+.post-comments-badge i.bi {
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 4px;
+}
+
+/* === Forms === */
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display:block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 12px;
 }
