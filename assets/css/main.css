@@ -354,7 +354,8 @@ blockquote cite {
 }
 
 .post header,
-.post .post-excerpt {
+.post .post-excerpt,
+.post .post-body {
     padding: 20px;
 }
 
@@ -387,6 +388,8 @@ blockquote cite {
 .post-details i.bi:first-child {
     padding-left: 0;
 }
+
+
 
 /* === Widgets === */
 .widget {
